@@ -70,7 +70,7 @@ const Toolbar = () => {
         </div>
         <div className="rightSide">
           <div className='comment'><MdOutlineInsertComment size={20}/></div>
-          <div className='meet'><img src={meet} className='meet2'/>
+          <div className='meet'><img src={meet} alt="meet" className='meet2'/>
            <RiArrowDropDownFill className='dropdown-icon'/></div>
           <div className="share-button"><MdLockOutline size={15} className='sharelock'/>Share</div>
           <div className="circle-container">
