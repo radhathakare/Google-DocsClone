@@ -10,7 +10,7 @@ import {
 } from 'react-icons/md';
 import { TfiPaintRoller } from 'react-icons/tfi'
 import DropdownC from '../Dropdown/Dropdown';
-import { AiOutlineMinus, AiOutlinePlus, AiOutlineBold, AiOutlineItalic, AiOutlineUnderline, AiOutlineStar } from 'react-icons/ai';
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineBold, AiOutlineItalic, AiOutlineUnderline } from 'react-icons/ai';
 import { FaHighlighter } from 'react-icons/fa';
 import { RiArrowDropDownFill } from 'react-icons/ri';
 import R from './Assets/R.png'
@@ -94,7 +94,7 @@ const Toolbar = () => {
         <p className="toolbar-button"><AiOutlineMinus /></p>
         <input type="number" name="qty1" value="12" min="1" max="5" pattern="[0-9]" className="font-sizearea" />
 
-        {/* <textarea value={11} /> */}
+        
         <p className="toolbar-button"><AiOutlinePlus /></p>
         <span className="splash">|</span>
         <p className="toolbar-button"  onclick="makeTextBold()"><AiOutlineBold /></p>
