@@ -1,0 +1,28 @@
+.dropdown-container {
+    margin: 10px;
+  }
+  .dropdown-container:hover {
+    background-color: #c9c8c8;
+    border-radius: 4px;
+  }
+  
+  .dropdown-select {
+    /* padding: 1px; */
+    font-size: 14px;
+    background-color: #edf2fa;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+  
+  /* Optional styles for the options */
+  .dropdown-option {
+    /* padding: 5px; */
+    font-size: 16px;
+  }
+  .dropdown-icon {
+   width: 25px;
+   height: 25px;
+  }
+  

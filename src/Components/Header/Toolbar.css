@@ -1,0 +1,273 @@
+
+.container1{
+    margin-top: 2px;
+    padding: 10px;
+}
+.logo{
+  height: 40px;
+    position: absolute;
+    width: 40px;
+}
+.documnetname{
+  font-size: large;
+}
+.header{
+  display: flex;
+}
+.sharelock{
+  margin: 5px;
+}
+
+.logo-container ul{
+  list-style: none;
+  margin-left: 6px;
+  color:black;
+}
+li {
+  display: inline;
+  position: relative;
+  top: 22px;
+  z-index: 2;
+  padding: 5px 7px;
+  border-radius: 0.15em;
+  color: #202124;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+li:hover {
+  background-color: #eee;
+}
+.untitled {
+  font-size: 18px;
+  color:rgb(50, 50, 50);
+  /* font-weight: 400; */
+  margin-left: 47px;
+  font-family: Google Sans,Roboto,sans-serif;
+  position: absolute;
+  /* padding: 0 1px 0; */
+}
+
+.untitled:hover {
+  background-color: #eee;
+}
+.header-container{
+  display: flex;
+}
+
+
+.toolbar-container {
+    display: flex;
+    padding: 8px;
+    background-color: #edf2fa;
+    border: none;
+    border-radius: 24px;
+    font-family: Google Sans,Roboto,sans-serif;
+    margin: 6px 85px 8px 6px;
+    min-height: 20px;
+    padding: 0 8px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 1%;
+   
+  }
+  .splash{
+    margin: 5px;
+    padding: 2px 2px;
+    border: none;
+    color: rgb(198, 196, 196);
+  }
+  .toolbar-button {
+    margin: 5px;
+    padding: 3px 3px;
+    border: none;
+    background-color: #edf2fa;
+    
+  }
+  .toolbar-button:hover {
+    background-color: #c9c8c8;
+    border-radius: 4px;
+  }
+  .toolbar-buttonline{
+    margin: 5px;
+    padding: 3px 3px;
+    border: none;
+    background-color: #edf2fa;
+    margin-left: 180px; 
+
+  }
+  .toolbar-buttonbullet:hover {
+    background-color: #c9c8c8;
+    border-radius: 4px;
+  }
+  .toolbar-buttonbullet{
+    margin: 5px;
+    padding: 3px 3px;
+    border: none;
+    background-color: #edf2fa;
+    position: absolute;
+    float: right;
+    /* margin-right: 55px; */
+
+  }
+  .toolbar-buttonline:hover {
+    background-color: #c9c8c8;
+    border-radius: 4px;
+  }
+  .font-sizearea{
+    width: 40px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: #edf2fa;
+    border-radius: 4px;
+  }
+  .rightSide {
+    position: relative;
+    float: right;
+  
+  }
+  .toolbar-dropdown{
+    font-size: 3px;
+  }
+  .toolbar-dropdown:hover {
+    background-color: #c9c8c8;
+    border-radius: 4px;
+  }
+ 
+  .star{
+    position: absolute;  
+    left: 225px;
+    top: 8px;
+  }
+  .comment{
+    position: absolute;  
+   right: -590px;
+   float: right;
+   width: 40px;
+   height: 40px;
+   font-size: larger;
+  }
+  .meet{
+    position: absolute;  
+    right: -630px;
+    float: right;
+    /* width: 2px;
+    height: 2px; */
+    
+  }
+  .meet2{
+      width: 18px;
+    height: 16px;
+
+  }
+  .share-button {
+    position: absolute;  
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-top: -4px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Google Sans,Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 9px 20px;
+    white-space: nowrap;
+    background: #c2e7ff;
+    color:black;
+    right: -740px;
+  }
+  
+  .share-button:hover {
+   
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .circle-container {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    right: -800px;
+    float: right;
+  }
+  
+  .circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .calender{
+    position: absolute;
+    right: 15px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-top: -55px;
+
+  }
+  .googlecompoenets{
+    display: block;
+  }
+  .slides{
+    position: absolute;
+    right: 18px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    
+  }
+  .contact{
+    position: absolute;
+    right: 18px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-top: 95px;
+
+  }
+  .task{
+    position: absolute;
+    right: 20px;
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-top: 50px;
+
+  }
+  .map{
+    position: absolute;
+    right: 18px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-top: 135px;
+  }
+  .plus{
+    position: absolute;
+    right: 25px;
+    float: right;
+    margin-top: 200px;
+  }
+  .splash2{
+    position: absolute;
+    right: 26px;
+    float: right;
+    margin-top: 170px;
+    padding: 2px 2px;
+    transform: rotate(90deg);
+    border: none;
+    color: rgb(198, 196, 196);
+  }
+  .dropdown-icon {
+    width: 25px;
+    height: 25px;
+   }
+  
+  
