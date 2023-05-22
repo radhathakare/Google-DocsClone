@@ -74,7 +74,7 @@ const Toolbar = () => {
            <RiArrowDropDownFill className='dropdown-icon'/></div>
           <div className="share-button"><MdLockOutline size={15} className='sharelock'/>Share</div>
           <div className="circle-container">
-            <img src={R} alt="Your Image" className="circle-image" />
+            <img src={R} alt="R" className="circle-image" />
           </div>
         </div>
 
